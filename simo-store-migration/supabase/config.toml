@@ -1,0 +1,19 @@
+# This config is for connecting to remote Supabase project
+project_id = "cjiazeziubpqqwkeyimy"
+
+[api]
+# This tells Supabase CLI to use your remote project
+project_id = "cjiazeziubpqqwkeyimy"
+
+[auth]
+# This tells Supabase CLI to use your remote project  
+project_id = "cjiazeziubpqqwkeyimy"
+
+[db]
+# Remote database connection
+host = "aws-1-ap-southeast-1.pooler.supabase.com"
+port = 6543
+database = "postgres"
+password = "NXambzugQoZDqoKl"
+# Use the remote connection
+remote = true
